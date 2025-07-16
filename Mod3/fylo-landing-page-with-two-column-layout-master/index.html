@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fylo - Secure File Storage</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #3c9af0;
+            --secondary-color: #04042b;
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .hero-section {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 4rem 0;
+        }
+        .btn-primary {
+            background-color: var(--primary-color);
+            border: none;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+        }
+        .feature-card {
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .cta-section {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 4rem 0;
+            border-radius: 10px;
+            margin: 3rem 0;
+        }
+        footer {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 4rem 0;
+        }
+        .social-icon {
+            color: white;
+            font-size: 1.5rem;
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://via.placeholder.com/100x30?text=Fylo+Logo" alt="Fylo Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4">All your files in one secure location, accessible anywhere.</h1>
+                    <p class="lead mb-5">Fylo stores your most important files in one secure location. Access them wherever you need to take and collaborate remote friends, family, and co-workers.</p>
+                    <button class="btn btn-primary btn-lg">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <h2 class="fw-bold mb-4">Stay productive, wherever you are</h2>
+                    <p class="lead">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature-card shadow-sm">
+                        <i class="fas fa-shield-alt fa-3x mb-4 text-primary"></i>
+                        <h3>Secure Sharing</h3>
+                        <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="feature-card shadow-sm">
+                        <i class="fas fa-mobile-alt fa-3x mb-4 text-primary"></i>
+                        <h3>Anywhere Access</h3>
+                        <p>Access your files from any device, anywhere in the world with our secure cloud storage solution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="fw-bold mb-4">Get early access today</h2>
+                    <p class="mb-5">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+                    <div class="d-flex flex-column flex-md-row gap-3 justify-content-center">
+                        <input type="email" class="form-control form-control-lg" placeholder="email@example.com">
+                        <button class="btn btn-dark btn-lg">Get Started For Free</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <img src="https://via.placeholder.com/100x30?text=Fylo+Logo" alt="Fylo Logo" class="mb-3">
+                    <p><i class="fas fa-phone-alt me-2"></i> +1-649 123-6607</p>
+                    <p><i class="fas fa-envelope me-2"></i> example@fylo.com</p>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5>About Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Jobs</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Press</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Terms</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5>Social</h5>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

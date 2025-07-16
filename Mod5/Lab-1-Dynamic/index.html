@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enhanced Shopping Cart</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="font-sans m-5 leading-relaxed bg-gray-50 min-h-screen">
+
+  <h1 class="text-2xl font-bold mb-4">Dynamic Shopping Cart</h1>
+
+  <div id="product-container" class="flex flex-wrap gap-2 mb-3">
+    <input type="text" id="product-name" placeholder="Product Name"
+      class="border border-gray-300 rounded px-3 py-1 flex-1 min-w-[150px]"
+    />
+    <input
+      type="number"id="product-price" placeholder="Product Price"
+      class="border border-gray-300 rounded px-3 py-1 w-32"
+    />
+    <button
+      id="add-product"
+      class="bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700"
+    >
+      Add Product
+    </button>
+  </div>
+
+  <!-- Validation message -->
+  <p id="validation-message" class="text-red-500 text-sm mb-4 hidden"></p>
+
+  <ul id="cart" class="list-none p-0"></ul>
+
+  <h3 class="text-lg font-semibold mt-6">
+    Total: $<span id="total-price">0.00</span>
+  </h3>
+
+</body>
+</html>

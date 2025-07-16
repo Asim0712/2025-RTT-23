@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Company Website</title>
+!</head>
+<body>
+    <!-- Header with logo and navigation -->
+    <header>
+        <div class="container header-container">
+            <img src="SBA-Accebility.png" alt="Company Logo">  
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Welcome to Our Company SBA Accesibility</h1>
+                <p>We provide innovative solutions to help your business grow and succeed in today's competitive market.</p>
+                <a href="#contact" class="btn">Learn More</a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About </h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>This is my first HTML CSS based project where i have leraned about semantics features, like Arias, lableling, flex, Grid box and, Focus to make our project attractive" </p>
+                        <p>I believe my learning will bring positivity and alot of help for my clients where we will try utmost best to delieve to what we know .</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://media.istockphoto.com/id/492025669/photo/group-of-business-people-holding-placards-forming-about-us.jpg?s=612x612&w=0&k=20&c=lgZYkFUmIIPgmjE9m5nHI_6PMJ-6M38lkPfiHpYZmzs=" >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-content">
+                            <h3>Web Development / Html-Css</h3>
+                            <p>Custom website development tailored to your business needs, built with the latest technologies for optimal performance.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-content">
+                            <h3>Business cards</h3> 
+                            <p>We can make you the best business and digital cards for your business</p>
+                            <p>"One step away"</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-content">
+                            <h3>Digital Marketing</h3>
+                            <p>Comprehensive digital marketing strategies to increase your online presence and drive conversions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form class="contact-form" aria-labelledby="contact-heading">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required aria-required="true"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About Company</h3>
+                    <p>Providing innovative solutions since 2010. We're committed to helping businesses grow through technology and creativity.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li>123 Business Ave, City</li>
+                        <li>info@sbhaccesbility.com</li>
+                        <li>+1 (555) 123-4567</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Twitter">t</a>
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Instagram">ig</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Company Name. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

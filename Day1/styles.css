@@ -1,0 +1,31 @@
+section{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border-style: solid;
+    background-color:rgba(245, 39, 166, 0.267);
+}
+body{
+    text-align: center;
+    background-color: purple);
+}
+ul{
+    display: inline;
+    text-align: center;
+    align-items: center;
+    margin-right: 30px;
+    
+}
+
+.facts{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+
+
+img{
+    max-height: 400px;
+    margin-top: 40px;
+}

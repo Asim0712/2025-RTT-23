@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20;
+    padding: 20;
+  }
+  .site-header {
+    background: tan;
+    color: white;
+    padding: 10px 20px;
+    font-size : 24px;
+    text-align: center;
+  }
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .content {
+    padding: 20px;
+    background: rgb(0, 217, 255);
+    color: blueviolet;
+    padding: 10px 20px;
+  }
+  
+  /* Set the background color of body to tan */
+footer {
+    background-color: rgb(210, 140, 210);
+    padding: 5px 80px;
+    text-align: center;
+  }
+img{
+    max-height: 200px;
+    margin-top: 20px;
+  }
+  

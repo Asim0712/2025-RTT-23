@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Management App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body class="bg-gray-100 min-h-screen p-6">
+    <div class="max-w-4xl mx-auto bg-white shadow-md rounded-md p-6">
+      <h1 class="text-2xl font-bold mb-4">Task Management App</h1>
+
+      <!-- Task Input Section -->
+      <div class="grid md:grid-cols-4 gap-4 mb-4">
+        <input
+          id="taskName"
+          type="text"
+          placeholder="Task Name"
+          class="border p-2 rounded w-full"
+        />
+        <input
+          id="taskCategory"
+          type="text"
+          placeholder="Category"
+          class="border p-2 rounded w-full"
+        />
+        <input
+          id="taskDeadline"
+          type="date"
+          class="border p-2 rounded w-full"
+        />
+        <select id="taskStatus" class="border p-2 rounded w-full">
+          <option value="In Progress">In Progress</option>
+          <option value="Completed">Completed</option>
+        </select>
+      </div>
+      <button
+        id="addTaskBtn"
+        class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+      >
+        Add Task
+      </button>
+
+      <!-- Filters -->
+      <div class="mt-6 flex flex-wrap gap-4">
+        <select id="filterStatus" class="border p-2 rounded">
+          <option value="">Filter by Status</option>
+          <option value="In Progress">In Progress</option>
+          <option value="Completed">Completed</option>
+          <option value="Overdue">Overdue</option>
+        </select>
+        <input
+          id="filterCategory"
+          type="text"
+          placeholder="Filter by Category"
+          class="border p-2 rounded"
+        />
+        <button
+          id="clearFiltersBtn"
+          class="bg-red-600 px-3 py-2 text-white rounded hover:bg-gray-400"
+        >
+          Clear Filters
+        </button>
+      </div>
+      <div id="taskList" class="mt-6 space-y-4">
+        <!-- Tasks will be inserted here -->
+      </div>
+    </div>
+  </body>
+</html>

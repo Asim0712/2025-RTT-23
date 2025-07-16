@@ -1,0 +1,22 @@
+:grid-testimonial1{
+    background: var(purple);
+    color: var(white);
+}
+    
+body {
+    font: 13px/1.5 Arial;
+    background: var(--light-bg);
+    min-height: 100vh;
+    padding: 2rem;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 1440px;
+}
+
+
+
